@@ -9,4 +9,4 @@ while IFS= read -r line || [ -n "$line" ]; do
     ${SCRIPT_DIR}/save.sh "$line" > ${SCRIPT_DIR}/response.html
 
     sleep 900 # wait 15 minutes
-done < "./list.txt"
+done < "${SCRIPT_DIR}/list.txt"
