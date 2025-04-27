@@ -9,6 +9,6 @@
   ./save.sh <URL>
   ```
 
- # Usage
+ # Usage (Scheduled)
   1. Place a list of URLs in `list.txt`, with one URL per line.
   2. Execute `automate.sh` via crontab (or other automated system)
